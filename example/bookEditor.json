@@ -1,0 +1,131 @@
+{
+   "affiliation" : [
+      {
+         "path" : [
+            {
+               "ugent_id" : "UGent"
+            },
+            {
+               "ugent_id" : "LW"
+            },
+            {
+               "ugent_id" : "LW03"
+            }
+         ],
+         "ugent_id" : "LW03"
+      }
+   ],
+   "created_by" : {
+      "biblio_id" : "F5747824-F0ED-11E1-A9DE-61C894A0A6B4",
+      "ugent_id" : [
+         "001996651535",
+         "801001239738"
+      ],
+      "last_name" : "Vanderputten",
+      "first_name" : "Steven",
+      "name" : "Steven Vanderputten",
+      "_id" : "F5747824-F0ED-11E1-A9DE-61C894A0A6B4",
+      "affiliation" : [
+         {
+            "ugent_id" : "LW03",
+            "path" : [
+               {
+                  "ugent_id" : "UGent"
+               },
+               {
+                  "ugent_id" : "LW"
+               },
+               {
+                  "ugent_id" : "LW03"
+               }
+            ]
+         }
+      ],
+      "orcid_id" : "0000-0002-4424-6796"
+   },
+   "language" : [
+      "eng"
+   ],
+   "file" : [
+      {
+         "kind" : "toc",
+         "access" : "private",
+         "size" : "48101",
+         "_id" : "7159809"
+      }
+   ],
+   "date_approved" : "2016-04-04 14:24:12",
+   "publisher" : {
+      "location" : "Leiden and Boston",
+      "name" : "Brill"
+   },
+   "vabb_id" : "c:vabb:467128",
+   "handle" : "http://hdl.handle.net/1854/LU-7159808",
+   "cite" : {
+      "bof" : "  <div class=\"csl-entry\">Bruce, Scott, and Steven Vanderputten, eds. 2021. âA Companion to the Abbey of Cluny.â Leiden and Boston: Brill.</div>\n In press.",
+      "ieee" : "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[1]</div><div class=\"csl-right-inline\">S. Bruce and S. Vanderputten, Eds., âA companion to the Abbey of Cluny.â Brill, Leiden and Boston, 2021.</div>\n  </div>\n",
+      "chicago-author-date" : "  <div class=\"csl-entry\">Bruce, Scott, and Steven Vanderputten, eds. 2021. âA Companion to the Abbey of Cluny.â Leiden and Boston: Brill.</div>\n",
+      "vancouver" : "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">1. </div><div class=\"csl-right-inline\">Bruce S, Vanderputten S, editors. A companion to the Abbey of Cluny. Leiden and Boston: Brill; 2021.</div>\n   </div>\n",
+      "mla" : "  <div class=\"csl-entry\">Bruce, Scott, and Steven Vanderputten, editors. <i>A Companion to the Abbey of Cluny</i>. Brill, 2021.</div>\n",
+      "apa" : "  <div class=\"csl-entry\">Bruce, S., &#38; Vanderputten, S. (Eds.). (2021). A companion to the Abbey of Cluny. Leiden and Boston: Brill.</div>\n",
+      "fwo" : "  <div class=\"csl-entry\">Bruce, Scott, and Steven Vanderputten, eds. 2021. âA Companion to the Abbey of Cluny.â Leiden and Boston: Brill.</div>\n"
+   },
+   "subject" : [
+      "History and Archaeology"
+   ],
+   "vabb_approved" : 0,
+   "biblio_id" : "7159808",
+   "year" : "2021",
+   "vabb_type" : "VABB-3",
+   "status" : "public",
+   "classification" : "B3",
+   "_id" : "7159808",
+   "jcr" : {},
+   "editor" : [
+      {
+         "name_last_first" : "Bruce, Scott",
+         "name" : "Scott Bruce",
+         "first_name" : "Scott",
+         "last_name" : "Bruce"
+      },
+      {
+         "affiliation" : [
+            {
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  },
+                  {
+                     "ugent_id" : "LW"
+                  },
+                  {
+                     "ugent_id" : "LW03"
+                  }
+               ],
+               "ugent_id" : "LW03"
+            }
+         ],
+         "orcid_id" : "0000-0002-4424-6796",
+         "_id" : "F5747824-F0ED-11E1-A9DE-61C894A0A6B4",
+         "last_name" : "Vanderputten",
+         "name" : "Steven Vanderputten",
+         "first_name" : "Steven",
+         "name_last_first" : "Vanderputten, Steven",
+         "biblio_id" : "F5747824-F0ED-11E1-A9DE-61C894A0A6B4",
+         "ugent_id" : [
+            "001996651535",
+            "801001239738"
+         ]
+      }
+   ],
+   "external" : 0,
+   "copyright_statement" : "I don't know the status of the copyright for this publication",
+   "title" : "A companion to the Abbey of Cluny",
+   "date_created" : "2016-03-23 11:23:40",
+   "type" : "bookEditor",
+   "publication_status" : "inpress",
+   "vabb_year" : [
+      "2019"
+   ],
+   "date_updated" : "2020-04-14 14:51:54"
+}

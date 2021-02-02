@@ -1,0 +1,229 @@
+{
+   "date_created" : "2018-01-19 10:00:55",
+   "file" : [
+      {
+         "_id" : "8545541",
+         "content_type" : "application/pdf",
+         "name" : "DS104.pdf",
+         "kind" : "fullText",
+         "size" : 636179,
+         "url" : "https://biblio.ugent.be/publication/8545539/file/8545541.pdf",
+         "access" : "restricted"
+      }
+   ],
+   "article_type" : "original",
+   "external" : 0,
+   "affiliation" : [
+      {
+         "ugent_id" : "TW06",
+         "path" : [
+            {
+               "ugent_id" : "UGent"
+            },
+            {
+               "ugent_id" : "TW"
+            },
+            {
+               "ugent_id" : "TW06"
+            }
+         ]
+      },
+      {
+         "path" : [
+            {
+               "ugent_id" : "ResearchCenter"
+            },
+            {
+               "ugent_id" : "IMEC"
+            }
+         ],
+         "ugent_id" : "IMEC"
+      }
+   ],
+   "volume" : 74,
+   "abstract" : [
+      "Purpose - The purpose of this paper is to detail a low-cost, low-maintenance publishing strategy aimed at unlocking the value of Linked Data collections held by libraries, archives and museums (LAMs). Design/methodology/approach - The shortcomings of commonly used Linked Data publishing approaches are identified, and the current lack of substantial collections of Linked Data exposed by LAMs is considered. To improve on the discussed status quo, a novel approach for publishing Linked Data is proposed and demonstrated by means of an archive of DBpedia versions, which is queried in combination with other Linked Data sources. Findings - The authors show that the approach makes publishing Linked Data archives easy and affordable, and supports distributed querying without causing untenable load on the Linked Data sources. Research limitations/implications - The proposed approach significantly lowers the barrier for publishing, maintaining, and making Linked Data collections queryable. As such, it offers the potential to substantially grow the distributed network of queryable Linked Data sources. Because the approach supports querying without causing unacceptable load on the sources, the queryable interfaces are expected to be more reliable, allowing them to become integral building blocks of robust applications that leverage distributed Linked Data sources. Originality/value - The novel publishing strategy significantly lowers the technical and financial barriers that LAMs face when attempting to publish Linked Data collections. The proposed approach yields Linked Data sources that can reliably be queried, paving the way for applications that leverage distributed Linked Data sources through federated querying."
+   ],
+   "title" : "Toward sustainable publishing and querying of distributed linked data archives",
+   "page" : {
+      "last" : "222",
+      "first" : "195"
+   },
+   "handle" : "http://hdl.handle.net/1854/LU-8545539",
+   "classification" : "A1",
+   "doi" : [
+      "10.1108/JD-03-2017-0040"
+   ],
+   "author" : [
+      {
+         "first_name" : "Miel",
+         "name" : "Miel Vander Sande",
+         "name_last_first" : "Vander Sande, Miel",
+         "affiliation" : [
+            {
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  }
+               ],
+               "ugent_id" : "UGent"
+            }
+         ],
+         "_id" : "2C7C943C-F0EE-11E1-A9DE-61C894A0A6B4",
+         "biblio_id" : "2C7C943C-F0EE-11E1-A9DE-61C894A0A6B4",
+         "last_name" : "Vander Sande",
+         "ugent_id" : [
+            "000100791484",
+            "802001059760",
+            "977131571150"
+         ]
+      },
+      {
+         "first_name" : "Ruben",
+         "name_last_first" : "Verborgh, Ruben",
+         "name" : "Ruben Verborgh",
+         "affiliation" : [
+            {
+               "ugent_id" : "TW06",
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  },
+                  {
+                     "ugent_id" : "TW"
+                  },
+                  {
+                     "ugent_id" : "TW06"
+                  }
+               ]
+            }
+         ],
+         "_id" : "115DF312-F0EE-11E1-A9DE-61C894A0A6B4",
+         "biblio_id" : "115DF312-F0EE-11E1-A9DE-61C894A0A6B4",
+         "last_name" : "Verborgh",
+         "ugent_id" : [
+            "002005635351",
+            "802000069754"
+         ],
+         "orcid_id" : "0000-0002-8596-222X"
+      },
+      {
+         "first_name" : "Patrick",
+         "name" : "Patrick Hochstenbach",
+         "name_last_first" : "Hochstenbach, Patrick",
+         "affiliation" : [
+            {
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  },
+                  {
+                     "ugent_id" : "CA"
+                  },
+                  {
+                     "ugent_id" : "CA20"
+                  }
+               ],
+               "ugent_id" : "CA20"
+            }
+         ],
+         "_id" : "F5134A54-F0ED-11E1-A9DE-61C894A0A6B4",
+         "biblio_id" : "F5134A54-F0ED-11E1-A9DE-61C894A0A6B4",
+         "ugent_id" : [
+            "801001101817"
+         ],
+         "orcid_id" : "0000-0001-8390-6171",
+         "last_name" : "Hochstenbach"
+      },
+      {
+         "last_name" : "Van de Sompel",
+         "first_name" : "Herbert",
+         "name" : "Herbert Van de Sompel",
+         "name_last_first" : "Van de Sompel, Herbert"
+      }
+   ],
+   "date_updated" : "2019-06-07 12:28:07",
+   "issn" : [
+      "0022-0418",
+      "1758-7379"
+   ],
+   "year" : "2018",
+   "jcr" : {
+      "category_decile" : 5,
+      "immediacy_index" : 0.343,
+      "category" : "INFORMATION SCIENCE & LIBRARY SCIENCE",
+      "prev_category_vigintile" : 11,
+      "category_rank" : "39/89",
+      "eigenfactor" : 0.0015,
+      "impact_factor" : 1.573,
+      "category_vigintile" : 9,
+      "total_cites" : 1946,
+      "prev_category_quartile" : 3,
+      "prev_impact_factor" : 1.157,
+      "prev_category_decile" : 6,
+      "category_quartile" : 2
+   },
+   "wos_type" : "Article",
+   "wos_id" : "000419191300011",
+   "parent" : {
+      "title" : "JOURNAL OF DOCUMENTATION"
+   },
+   "vabb_year" : [
+      "2019"
+   ],
+   "cite" : {
+      "fwo" : "  <div class=\"csl-entry\">Vander Sande, Miel, Ruben Verborgh, Patrick Hochstenbach, and Herbert Van de Sompel. 2018. âToward Sustainable Publishing and Querying of Distributed Linked Data Archives.â <i>Journal of Documentation</i> 74 (1): 195â222.</div>\n",
+      "chicago-author-date" : "  <div class=\"csl-entry\">Vander Sande, Miel, Ruben Verborgh, Patrick Hochstenbach, and Herbert Van de Sompel. 2018. âToward Sustainable Publishing and Querying of Distributed Linked Data Archives.â <i>Journal of Documentation</i> 74 (1): 195â222.</div>\n",
+      "ieee" : "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[1]</div><div class=\"csl-right-inline\">M. Vander Sande, R. Verborgh, P. Hochstenbach, and H. Van de Sompel, âToward sustainable publishing and querying of distributed linked data archives,â <i>JOURNAL OF DOCUMENTATION</i>, vol. 74, no. 1, pp. 195â222, 2018.</div>\n  </div>\n",
+      "apa" : "  <div class=\"csl-entry\">Vander Sande, M., Verborgh, R., Hochstenbach, P., &#38; Van de Sompel, H. (2018). Toward sustainable publishing and querying of distributed linked data archives. <i>JOURNAL OF DOCUMENTATION</i>, <i>74</i>(1), 195â222.</div>\n",
+      "bof" : "  <div class=\"csl-entry\">Vander Sande, Miel, Ruben Verborgh, Patrick Hochstenbach, and Herbert Van de Sompel. 2018. âToward Sustainable Publishing and Querying of Distributed Linked Data Archives.â <i>Journal of Documentation</i> 74 (1): 195â222.</div>\n<div><i>Impact factor: 1.573, category: INFORMATION SCIENCE & LIBRARY SCIENCE, rank: 39/89, quartile: 2.</i></div>",
+      "mla" : "  <div class=\"csl-entry\">Vander Sande, Miel et al. âToward Sustainable Publishing and Querying of Distributed Linked Data Archives.â <i>JOURNAL OF DOCUMENTATION</i> 74.1 (2018): 195â222. Print.</div>\n",
+      "vancouver" : "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">1. </div><div class=\"csl-right-inline\">Vander Sande M, Verborgh R, Hochstenbach P, Van de Sompel H. Toward sustainable publishing and querying of distributed linked data archives. JOURNAL OF DOCUMENTATION. 2018;74(1):195â222. </div>\n  </div>\n"
+   },
+   "_id" : "8545539",
+   "vabb_approved" : 0,
+   "keyword" : [
+      "Linked Data",
+      "Digital preservation",
+      "Data integration",
+      "Data publishing",
+      "History reconstruction",
+      "Reproducibility"
+   ],
+   "issue" : "1",
+   "status" : "public",
+   "created_by" : {
+      "last_name" : "Stevens",
+      "affiliation" : [
+         {
+            "path" : [
+               {
+                  "ugent_id" : "UGent"
+               },
+               {
+                  "ugent_id" : "TW"
+               },
+               {
+                  "ugent_id" : "TW05"
+               }
+            ],
+            "ugent_id" : "TW05"
+         }
+      ],
+      "ugent_id" : [
+         "801002076564"
+      ],
+      "name" : "Davinia Stevens",
+      "biblio_id" : "F8056F12-F0ED-11E1-A9DE-61C894A0A6B4",
+      "first_name" : "Davinia",
+      "_id" : "F8056F12-F0ED-11E1-A9DE-61C894A0A6B4"
+   },
+   "language" : [
+      "eng"
+   ],
+   "biblio_id" : "8545539",
+   "publication_status" : "published",
+   "vabb_type" : "VABB-1",
+   "vabb_id" : "c:vabb:471310",
+   "type" : "journalArticle"
+}

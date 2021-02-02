@@ -1,0 +1,170 @@
+{
+   "date_created" : "2020-02-18 14:56:08",
+   "title" : "School, identity and society survey",
+   "handle" : "http://hdl.handle.net/1854/LU-8648173",
+   "status" : "public",
+   "_id" : "8648173",
+   "subject" : [
+      "Social Sciences"
+   ],
+   "external" : 0,
+   "classification" : "V",
+   "type" : "researchData",
+   "year" : "2021",
+   "biblio_id" : "8648173",
+   "jcr" : {},
+   "created_by" : {
+      "first_name" : "Charlotte",
+      "orcid_id" : "0000-0002-3733-7067",
+      "biblio_id" : "465E25CC-3936-11E4-975D-9EF2B4D1D7B1",
+      "name" : "Charlotte Maene",
+      "last_name" : "Maene",
+      "affiliation" : [
+         {
+            "path" : [
+               {
+                  "ugent_id" : "UGent"
+               },
+               {
+                  "ugent_id" : "PS"
+               },
+               {
+                  "ugent_id" : "PS04"
+               }
+            ],
+            "ugent_id" : "PS04"
+         }
+      ],
+      "ugent_id" : [
+         "000140873605",
+         "802002411494"
+      ],
+      "_id" : "465E25CC-3936-11E4-975D-9EF2B4D1D7B1"
+   },
+   "language" : [
+      "und"
+   ],
+   "doi" : [
+      "10.34934/DVN/ZRXUWM"
+   ],
+   "abstract" : [
+      "The aim of this survey is to study the relationship between different forms of collective identification and intercultural relationships of Belgian students inscribed in urban secondary schools situated both the Flemish and French educational system. A multi-stage sampling frame was developed to reach variation in school contexts: first multicultural urban areas were identified and second heterogeneous schools within each city were randomly selected. The survey contains information on 64 schools situated in Flanders, Brussels and Wallonia. The survey contains five main themes. The central theme is collective identity. In total six different identities were measured, namely the Belgian, regional and ethnic ones. Furthermore the connectedness with the religious identity was mapped as well as studentsâ identification with their school and track. A second central theme in the survey was the measurement of intergroup relationships. Four different aspects were mapped namely, stereotypes and prejudice towards ethnic outgroups, attitudes about language use at school and a comprehensive measure about school climate. Teaching practices from the point of view of students is the third central theme in the survey. A fourth central theme was mapping pupils experience and awareness of racism and discrimination. Lastly, psychological attributes such as studentsâ sense of futility, study involvement and self-esteem were included. (2020-12-16)"
+   ],
+   "project" : [
+      {
+         "start_date" : "2016-01-01",
+         "gismo_id" : "b7804780-954a-4eb5-b613-c426a06ef244",
+         "publication_count" : 2,
+         "_id" : "3G024516",
+         "title" : "National Pride and Prejudice? Testing the relationship between Belgian majority and minority studentsâ ethnic identities and their prejudice and behavioral intentions to ethnic out-groups in educational and socio-political contexts",
+         "iweto_id" : "3G024516",
+         "end_date" : "2019-12-31",
+         "abstract" : "<p>This study test is if we can understand the relationship between national pride and prejudice by considering the complexity and meaningfulness of the way in which individuals draw ethnic boundaries around themselves and others, and the role of schools in doing so. The latter is studied through qualitative research that feeds into a quantitative study that focuses on the former.</p>"
+      }
+   ],
+   "author" : [
+      {
+         "credit_role" : [
+            "data_curation"
+         ],
+         "affiliation" : [
+            {
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  },
+                  {
+                     "ugent_id" : "PS"
+                  },
+                  {
+                     "ugent_id" : "PS04"
+                  }
+               ],
+               "ugent_id" : "PS04"
+            }
+         ],
+         "last_name" : "Maene",
+         "ugent_id" : [
+            "000140873605",
+            "802002411494"
+         ],
+         "_id" : "465E25CC-3936-11E4-975D-9EF2B4D1D7B1",
+         "name_last_first" : "Maene, Charlotte",
+         "first_name" : "Charlotte",
+         "orcid_id" : "0000-0002-3733-7067",
+         "name" : "Charlotte Maene",
+         "biblio_id" : "465E25CC-3936-11E4-975D-9EF2B4D1D7B1"
+      },
+      {
+         "last_name" : "Thijs",
+         "name" : "Jochem Thijs",
+         "first_name" : "Jochem",
+         "name_last_first" : "Thijs, Jochem",
+         "credit_role" : [
+            "supervision"
+         ]
+      },
+      {
+         "_id" : "FB334344-F0ED-11E1-A9DE-61C894A0A6B4",
+         "ugent_id" : [
+            "801001231149"
+         ],
+         "last_name" : "Stevens",
+         "affiliation" : [
+            {
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  },
+                  {
+                     "ugent_id" : "PS"
+                  },
+                  {
+                     "ugent_id" : "PS04"
+                  }
+               ],
+               "ugent_id" : "PS04"
+            }
+         ],
+         "credit_role" : [
+            "supervision"
+         ],
+         "biblio_id" : "FB334344-F0ED-11E1-A9DE-61C894A0A6B4",
+         "name" : "Peter Stevens",
+         "orcid_id" : "0000-0002-8481-5287",
+         "first_name" : "Peter",
+         "name_last_first" : "Stevens, Peter"
+      }
+   ],
+   "additional_info" : "School, Identity and Society Survey was published in Social Sciences and (Digital) Humanities Archive â SODHA (https://www.sodha.be/dataverse/sodha)",
+   "affiliation" : [
+      {
+         "path" : [
+            {
+               "ugent_id" : "UGent"
+            },
+            {
+               "ugent_id" : "PS"
+            },
+            {
+               "ugent_id" : "PS04"
+            }
+         ],
+         "ugent_id" : "PS04"
+      }
+   ],
+   "publisher" : {
+      "name" : "SODHA"
+   },
+   "date_updated" : "2021-01-21 13:50:53",
+   "publication_status" : "published",
+   "cite" : {
+      "vancouver" : "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">1. </div><div class=\"csl-right-inline\">Maene C, Thijs J, Stevens P. School, identity and society survey. SODHA; 2021.</div>\n   </div>\n",
+      "fwo" : "  <div class=\"csl-entry\">Maene, Charlotte, Jochem Thijs, and Peter Stevens. 2021. âSchool, Identity and Society Survey.â SODHA. doi:10.34934/DVN/ZRXUWM.</div>\n",
+      "ieee" : "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[1]</div><div class=\"csl-right-inline\">C. Maene, J. Thijs, and P. Stevens, âSchool, identity and society survey.â SODHA, 2021.</div>\n  </div>\n",
+      "apa" : "  <div class=\"csl-entry\">Maene, C., Thijs, J., &#38; Stevens, P. (2021). School, identity and society survey. SODHA. https://doi.org/10.34934/DVN/ZRXUWM</div>\n",
+      "chicago-author-date" : "  <div class=\"csl-entry\">Maene, Charlotte, Jochem Thijs, and Peter Stevens. 2021. âSchool, Identity and Society Survey.â SODHA. https://doi.org/10.34934/DVN/ZRXUWM.</div>\n",
+      "bof" : "  <div class=\"csl-entry\">Maene, Charlotte, Jochem Thijs, and Peter Stevens. 2021. âSchool, Identity and Society Survey.â SODHA. doi:10.34934/DVN/ZRXUWM.</div>\n",
+      "mla" : "  <div class=\"csl-entry\">Maene, Charlotte, et al. <i>School, Identity and Society Survey</i>. SODHA, 2021, doi:10.34934/DVN/ZRXUWM.</div>\n"
+   }
+}

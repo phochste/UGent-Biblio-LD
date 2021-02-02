@@ -1,0 +1,185 @@
+{
+   "publication_status" : "published",
+   "file" : [
+      {
+         "_id" : "8677506",
+         "size" : 107875,
+         "access" : "open",
+         "publication_version" : "acceptedVersion",
+         "content_type" : "application/pdf",
+         "kind" : "fullText",
+         "url" : "https://biblio.ugent.be/publication/8677467/file/8677506.pdf",
+         "name" : "abstract_VIOT_fitforpurpose_final.pdf"
+      }
+   ],
+   "copyright_statement" : "I have retained and own the full copyright for this publication",
+   "biblio_id" : "8677467",
+   "year" : "2022",
+   "status" : "public",
+   "date_updated" : "2021-01-11 14:21:48",
+   "subject" : [
+      "Languages and Literatures"
+   ],
+   "created_by" : {
+      "affiliation" : [
+         {
+            "ugent_id" : "LW22",
+            "path" : [
+               {
+                  "ugent_id" : "UGent"
+               },
+               {
+                  "ugent_id" : "LW"
+               },
+               {
+                  "ugent_id" : "LW22"
+               }
+            ]
+         }
+      ],
+      "last_name" : "Ruytenbeek",
+      "ugent_id" : [
+         "802003232055"
+      ],
+      "_id" : "d94b27c7-e5d3-11e9-b023-b7cb4cc9cafb",
+      "orcid_id" : "0000-0002-1651-9777",
+      "first_name" : "Nicolas",
+      "name" : "Nicolas Ruytenbeek",
+      "biblio_id" : "d94b27c7-e5d3-11e9-b023-b7cb4cc9cafb"
+   },
+   "_id" : "8677467",
+   "jcr" : {},
+   "date_created" : "2020-10-10 13:23:58",
+   "affiliation" : [
+      {
+         "ugent_id" : "LW22",
+         "path" : [
+            {
+               "ugent_id" : "UGent"
+            },
+            {
+               "ugent_id" : "LW"
+            },
+            {
+               "ugent_id" : "LW22"
+            }
+         ]
+      }
+   ],
+   "classification" : "C3",
+   "type" : "conference",
+   "language" : [
+      "dut"
+   ],
+   "external" : 0,
+   "conference" : {
+      "start_date" : "2022-01-19",
+      "organizer" : "Vereniging Interuniversitair Overleg Taalbeheersing (VIOT)",
+      "name" : "VIOT-2022",
+      "location" : "Universiteit Gent",
+      "end_date" : "2022-01-21"
+   },
+   "title" : "'Bitte entschuldigen Sie das spÃ¤te Antwort' : in hoeverre worden conventionele uitdrukkingen met fouten in zakelijke e-mails als âfit for purposeâ beschouwd?",
+   "author" : [
+      {
+         "name" : "Griet Boone",
+         "biblio_id" : "6F95D412-1E52-11E3-8603-66C010BDE39D",
+         "ugent_id" : [
+            "000131303139",
+            "802001631353"
+         ],
+         "last_name" : "Boone",
+         "name_last_first" : "Boone, Griet",
+         "affiliation" : [
+            {
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  },
+                  {
+                     "ugent_id" : "LW"
+                  },
+                  {
+                     "ugent_id" : "LW22"
+                  }
+               ],
+               "ugent_id" : "LW22"
+            }
+         ],
+         "first_name" : "Griet",
+         "orcid_id" : "0000-0001-5073-8933",
+         "_id" : "6F95D412-1E52-11E3-8603-66C010BDE39D"
+      },
+      {
+         "biblio_id" : "F7F229E8-F0ED-11E1-A9DE-61C894A0A6B4",
+         "name" : "Sofie Decock",
+         "first_name" : "Sofie",
+         "_id" : "F7F229E8-F0ED-11E1-A9DE-61C894A0A6B4",
+         "orcid_id" : "0000-0002-5147-9336",
+         "name_last_first" : "Decock, Sofie",
+         "affiliation" : [
+            {
+               "ugent_id" : "LW22",
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  },
+                  {
+                     "ugent_id" : "LW"
+                  },
+                  {
+                     "ugent_id" : "LW22"
+                  }
+               ]
+            }
+         ],
+         "ugent_id" : [
+            "002000157578",
+            "801002050801"
+         ],
+         "last_name" : "Decock"
+      },
+      {
+         "biblio_id" : "d94b27c7-e5d3-11e9-b023-b7cb4cc9cafb",
+         "name" : "Nicolas Ruytenbeek",
+         "first_name" : "Nicolas",
+         "orcid_id" : "0000-0002-1651-9777",
+         "_id" : "d94b27c7-e5d3-11e9-b023-b7cb4cc9cafb",
+         "name_last_first" : "Ruytenbeek, Nicolas",
+         "affiliation" : [
+            {
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  },
+                  {
+                     "ugent_id" : "LW"
+                  },
+                  {
+                     "ugent_id" : "LW22"
+                  }
+               ],
+               "ugent_id" : "LW22"
+            }
+         ],
+         "ugent_id" : [
+            "802003232055"
+         ],
+         "last_name" : "Ruytenbeek"
+      }
+   ],
+   "conference_type" : "meetingAbstract",
+   "parent" : {
+      "title" : "VIOT 2022, Abstracts"
+   },
+   "cite" : {
+      "fwo" : "  <div class=\"csl-entry\">Boone, Griet, Sofie Decock, and Nicolas Ruytenbeek. 2022. ââBitte Entschuldigen Sie Das SpÃ¤te Antwortââ¯: In Hoeverre Worden Conventionele Uitdrukkingen Met Fouten in Zakelijke e-Mails Als âFit for Purposeâ Beschouwd?â In <i>VIOT 2022, Abstracts</i>.</div>\n",
+      "vancouver" : "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">1. </div><div class=\"csl-right-inline\">Boone G, Decock S, Ruytenbeek N. âBitte entschuldigen Sie das spÃ¤te Antwortââ¯: in hoeverre worden conventionele uitdrukkingen met fouten in zakelijke e-mails als âfit for purposeâ beschouwd? In: VIOT 2022, Abstracts. 2022.</div>\n   </div>\n",
+      "bof" : "  <div class=\"csl-entry\">Boone, Griet, Sofie Decock, and Nicolas Ruytenbeek. 2022. ââBitte Entschuldigen Sie Das SpÃ¤te Antwortââ¯: In Hoeverre Worden Conventionele Uitdrukkingen Met Fouten in Zakelijke e-Mails Als âFit for Purposeâ Beschouwd?â In <i>VIOT 2022, Abstracts</i>.</div>\n",
+      "chicago-author-date" : "  <div class=\"csl-entry\">Boone, Griet, Sofie Decock, and Nicolas Ruytenbeek. 2022. ââBitte Entschuldigen Sie Das SpÃ¤te Antwortââ¯: In Hoeverre Worden Conventionele Uitdrukkingen Met Fouten in Zakelijke e-Mails Als âFit for Purposeâ Beschouwd?â In <i>VIOT 2022, Abstracts</i>.</div>\n",
+      "apa" : "  <div class=\"csl-entry\">Boone, G., Decock, S., &#38; Ruytenbeek, N. (2022). âBitte entschuldigen Sie das spÃ¤te Antwortââ¯: in hoeverre worden conventionele uitdrukkingen met fouten in zakelijke e-mails als âfit for purposeâ beschouwd? In <i>VIOT 2022, Abstracts</i>. Universiteit Gent.</div>\n",
+      "mla" : "  <div class=\"csl-entry\">Boone, Griet, et al. ââBitte Entschuldigen Sie Das SpÃ¤te Antwortââ¯: In Hoeverre Worden Conventionele Uitdrukkingen Met Fouten in Zakelijke e-Mails Als âFit for Purposeâ Beschouwd?â <i>VIOT 2022, Abstracts</i>, 2022.</div>\n",
+      "ieee" : "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[1]</div><div class=\"csl-right-inline\">G. Boone, S. Decock, and N. Ruytenbeek, ââBitte entschuldigen Sie das spÃ¤te Antwortââ¯: in hoeverre worden conventionele uitdrukkingen met fouten in zakelijke e-mails als âfit for purposeâ beschouwd?,â in <i>VIOT 2022, Abstracts</i>, Universiteit Gent, 2022.</div>\n  </div>\n"
+   },
+   "handle" : "http://hdl.handle.net/1854/LU-8677467"
+}

@@ -1,0 +1,139 @@
+{
+   "vabb_approved" : 0,
+   "project" : [
+      {
+         "title" : "FWO 12Q9815N",
+         "_id" : "FWO 12Q9815N"
+      }
+   ],
+   "vabb_type" : "VABB-2",
+   "_id" : "8136237",
+   "vabb_year" : [
+      "2018"
+   ],
+   "series_title" : "Beihefte zum Euphorion",
+   "created_by" : {
+      "_id" : "2FD05FD8-F0EE-11E1-A9DE-61C894A0A6B4",
+      "ugent_id" : [
+         "000100872017",
+         "802000886069",
+         "973363901695"
+      ],
+      "name" : "Thorsten Ries",
+      "last_name" : "Ries",
+      "biblio_id" : "2FD05FD8-F0EE-11E1-A9DE-61C894A0A6B4",
+      "first_name" : "Thorsten",
+      "affiliation" : [
+         {
+            "path" : [
+               {
+                  "ugent_id" : "UGent"
+               }
+            ],
+            "ugent_id" : "UGent"
+         }
+      ]
+   },
+   "author" : [
+      {
+         "first_name" : "Thorsten",
+         "affiliation" : [
+            {
+               "ugent_id" : "UGent",
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  }
+               ]
+            }
+         ],
+         "ugent_id" : [
+            "000100872017",
+            "802000886069",
+            "973363901695"
+         ],
+         "name" : "Thorsten Ries",
+         "_id" : "2FD05FD8-F0EE-11E1-A9DE-61C894A0A6B4",
+         "biblio_id" : "2FD05FD8-F0EE-11E1-A9DE-61C894A0A6B4",
+         "name_last_first" : "Ries, Thorsten",
+         "last_name" : "Ries"
+      }
+   ],
+   "cite" : {
+      "vancouver" : "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">1. </div><div class=\"csl-right-inline\">Ries T. Textgenese und digitale Forensikâ¯: exemplarische Studien zu Thomas Kling und Michael Speier. Heidelberg: UniversitÃ¤tsverlag Winter; 2021.</div>\n   </div>\n",
+      "apa" : "  <div class=\"csl-entry\">Ries, T. (2021). <i>Textgenese und digitale Forensikâ¯: exemplarische Studien zu Thomas Kling und Michael Speier</i>. Heidelberg: UniversitÃ¤tsverlag Winter.</div>\n",
+      "chicago-author-date" : "  <div class=\"csl-entry\">Ries, Thorsten. 2021. <i>Textgenese Und Digitale Forensikâ¯: Exemplarische Studien Zu Thomas Kling Und Michael Speier</i>. Heidelberg: UniversitÃ¤tsverlag Winter.</div>\n",
+      "ieee" : "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[1]</div><div class=\"csl-right-inline\">T. Ries, <i>Textgenese und digitale Forensikâ¯: exemplarische Studien zu Thomas Kling und Michael Speier</i>. Heidelberg: UniversitÃ¤tsverlag Winter, 2021.</div>\n  </div>\n",
+      "fwo" : "  <div class=\"csl-entry\">Ries, Thorsten. 2021. <i>Textgenese Und Digitale Forensikâ¯: Exemplarische Studien Zu Thomas Kling Und Michael Speier</i>. Heidelberg: UniversitÃ¤tsverlag Winter.</div>\n",
+      "mla" : "  <div class=\"csl-entry\">Ries, Thorsten. <i>Textgenese Und Digitale Forensikâ¯: Exemplarische Studien Zu Thomas Kling Und Michael Speier</i>. UniversitÃ¤tsverlag Winter, 2021.</div>\n",
+      "bof" : "  <div class=\"csl-entry\">Ries, Thorsten. 2021. <i>Textgenese Und Digitale Forensikâ¯: Exemplarische Studien Zu Thomas Kling Und Michael Speier</i>. Heidelberg: UniversitÃ¤tsverlag Winter.</div>\n In press."
+   },
+   "jcr" : {},
+   "status" : "public",
+   "title" : "Textgenese und digitale Forensik : exemplarische Studien zu Thomas Kling und Michael Speier",
+   "publication_status" : "inpress",
+   "date_created" : "2016-11-08 18:13:15",
+   "publisher" : {
+      "name" : "UniversitÃ¤tsverlag Winter",
+      "location" : "Heidelberg"
+   },
+   "copyright_statement" : "I have retained and own the full copyright for this publication",
+   "type" : "book",
+   "year" : "2021",
+   "date_updated" : "2021-01-07 08:06:01",
+   "vabb_id" : "c:vabb:443050",
+   "affiliation" : [
+      {
+         "ugent_id" : "LW12*",
+         "path" : [
+            {
+               "ugent_id" : "UGent"
+            },
+            {
+               "ugent_id" : "LW"
+            },
+            {
+               "ugent_id" : "LW12*"
+            }
+         ]
+      },
+      {
+         "path" : [
+            {
+               "ugent_id" : "UGent"
+            },
+            {
+               "ugent_id" : "LW"
+            },
+            {
+               "ugent_id" : "LW07"
+            }
+         ],
+         "ugent_id" : "LW07"
+      }
+   ],
+   "file" : [
+      {
+         "access" : "private",
+         "_id" : "8136239",
+         "kind" : "peerReviewReport",
+         "size" : "40862"
+      },
+      {
+         "_id" : "8136242",
+         "access" : "private",
+         "size" : "9016946",
+         "kind" : "fullText"
+      }
+   ],
+   "biblio_id" : "8136237",
+   "handle" : "http://hdl.handle.net/1854/LU-8136237",
+   "language" : [
+      "ger"
+   ],
+   "external" : 0,
+   "classification" : "B1",
+   "subject" : [
+      "Languages and Literatures"
+   ]
+}

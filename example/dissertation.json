@@ -1,0 +1,160 @@
+{
+   "handle" : "http://hdl.handle.net/1854/LU-8690883",
+   "affiliation" : [
+      {
+         "ugent_id" : "TW05",
+         "path" : [
+            {
+               "ugent_id" : "UGent"
+            },
+            {
+               "ugent_id" : "TW"
+            },
+            {
+               "ugent_id" : "TW05"
+            }
+         ]
+      }
+   ],
+   "date_updated" : "2021-01-29 13:45:27",
+   "defense" : {
+      "date" : "2020-06-18"
+   },
+   "date_created" : "2021-01-29 13:41:55",
+   "status" : "public",
+   "classification" : "D1",
+   "alternative_title" : [
+      "Multi-objectiefoptimalisatie van co-existerende cognitieve-radio- en draadloze omroepnetwerken"
+   ],
+   "_id" : "8690883",
+   "biblio_id" : "8690883",
+   "jcr" : {},
+   "type" : "dissertation",
+   "title" : "Multi-Objective Optimization of Coexisting Cognitive Radio and Broadcasting Networks",
+   "author" : [
+      {
+         "ugent_id" : [
+            "000160765978",
+            "802002455651"
+         ],
+         "biblio_id" : "AAEDFFCA-8822-11E6-BE4C-FF3FB5D1D7B1",
+         "_id" : "AAEDFFCA-8822-11E6-BE4C-FF3FB5D1D7B1",
+         "name_last_first" : "Martinez Alonso, Rodney",
+         "orcid_id" : "0000-0003-2529-5944",
+         "name" : "Rodney Martinez Alonso",
+         "affiliation" : [
+            {
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  },
+                  {
+                     "ugent_id" : "TW"
+                  },
+                  {
+                     "ugent_id" : "TW05"
+                  }
+               ],
+               "ugent_id" : "TW05"
+            }
+         ],
+         "last_name" : "Martinez Alonso",
+         "first_name" : "Rodney"
+      }
+   ],
+   "year" : "2020",
+   "cite" : {
+      "apa" : "  <div class=\"csl-entry\">Martinez Alonso, R. (2020). <i>Multi-Objective Optimization of Coexisting Cognitive Radio and Broadcasting Networks</i>.</div>\n",
+      "mla" : "  <div class=\"csl-entry\">Martinez Alonso, Rodney. <i>Multi-Objective Optimization of Coexisting Cognitive Radio and Broadcasting Networks</i>. 2020.</div>\n",
+      "fwo" : "  <div class=\"csl-entry\">Martinez Alonso, Rodney. 2020. âMulti-Objective Optimization of Coexisting Cognitive Radio and Broadcasting Networks.â</div>\n",
+      "vancouver" : "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">1. </div><div class=\"csl-right-inline\">Martinez Alonso R. Multi-Objective Optimization of Coexisting Cognitive Radio and Broadcasting Networks. 2020.</div>\n   </div>\n",
+      "chicago-author-date" : "  <div class=\"csl-entry\">Martinez Alonso, Rodney. 2020. âMulti-Objective Optimization of Coexisting Cognitive Radio and Broadcasting Networks.â</div>\n",
+      "ieee" : "  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">[1]</div><div class=\"csl-right-inline\">R. Martinez Alonso, âMulti-Objective Optimization of Coexisting Cognitive Radio and Broadcasting Networks,â 2020.</div>\n  </div>\n",
+      "bof" : "  <div class=\"csl-entry\">Martinez Alonso, Rodney. 2020. âMulti-Objective Optimization of Coexisting Cognitive Radio and Broadcasting Networks.â</div>\n"
+   },
+   "language" : [
+      "und"
+   ],
+   "promoter" : [
+      {
+         "orcid_id" : "0000-0002-8807-0673",
+         "last_name" : "Joseph",
+         "affiliation" : [
+            {
+               "ugent_id" : "TW05",
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  },
+                  {
+                     "ugent_id" : "TW"
+                  },
+                  {
+                     "ugent_id" : "TW05"
+                  }
+               ]
+            }
+         ],
+         "name" : "Wout Joseph",
+         "first_name" : "Wout",
+         "ugent_id" : [
+            "001995176731",
+            "801001443135"
+         ],
+         "_id" : "F5FAC172-F0ED-11E1-A9DE-61C894A0A6B4",
+         "biblio_id" : "F5FAC172-F0ED-11E1-A9DE-61C894A0A6B4",
+         "name_last_first" : "Joseph, Wout"
+      },
+      {
+         "orcid_id" : "0000-0002-8879-5076",
+         "name" : "David Plets",
+         "affiliation" : [
+            {
+               "ugent_id" : "TW05",
+               "path" : [
+                  {
+                     "ugent_id" : "UGent"
+                  },
+                  {
+                     "ugent_id" : "TW"
+                  },
+                  {
+                     "ugent_id" : "TW05"
+                  }
+               ]
+            }
+         ],
+         "last_name" : "Plets",
+         "first_name" : "David",
+         "ugent_id" : [
+            "002001207404",
+            "802000048435"
+         ],
+         "_id" : "F8639E8E-F0ED-11E1-A9DE-61C894A0A6B4",
+         "biblio_id" : "F8639E8E-F0ED-11E1-A9DE-61C894A0A6B4",
+         "name_last_first" : "Plets, David"
+      },
+      {
+         "last_name" : "Guillén Nieto",
+         "name" : "Glauco Guillén Nieto",
+         "first_name" : "Glauco",
+         "name_last_first" : "GuillÃ©n Nieto, Glauco"
+      }
+   ],
+   "file" : [
+      {
+         "access" : "open",
+         "url" : "https://biblio.ugent.be/publication/8690883/file/8690898.pdf",
+         "content_type" : "application/pdf",
+         "name" : "8690883.pdf",
+         "_id" : "8690898",
+         "size" : 12159228,
+         "kind" : "fullText"
+      }
+   ],
+   "publication_status" : "published",
+   "source" : {
+      "db" : "plato"
+   },
+   "external" : 0
+}
