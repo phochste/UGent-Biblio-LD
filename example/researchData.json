@@ -1,4 +1,5 @@
 {
+   "@context" : "https://github.ugent.be/raw/phochste/biblio-ld/master/biblio.jsonld?token=AAAAAQDUZSYDABVLA7MKSADAEJ7TC" ,
    "date_created" : "2020-02-18 14:56:08",
    "title" : "School, identity and society survey",
    "handle" : "http://hdl.handle.net/1854/LU-8648173",

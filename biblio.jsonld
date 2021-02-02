@@ -1,6 +1,7 @@
 {
    "@context" : {
       "@version" : 1.1,
+      "@base" : "https://biblio.ugent.be/publication/" ,
       "bibo" : "http://purl.org/ontology/bibo/",
       "dc" : "http://purl.org/dc/elements/1.1/",
       "dcmi" : "http://purl.org/dc/dcmitype/",
@@ -13,6 +14,7 @@
       "ugent" : "http://lib.ugent.be/biblio/",
       "xsd" : "http://www.w3.org/2001/XMLSchema#",
 
+      "_id": "@id",
       "abstract" : "dcterms:abstract",
       "affiliation" : {
          "@id" : "dcterms:mediator",
@@ -29,6 +31,7 @@
       "author" : {
          "@id" : "dc:creator",
          "@context" : {
+            "@base" : "http://biblio.ugent.be/person/",
             "last_name" : "foaf:familyName",
             "ugent_id" : {
                "@context" : {
