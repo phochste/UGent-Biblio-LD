@@ -13,8 +13,8 @@ Install [JSONLD](https://metacpan.org/pod/JSONLD).
 Run:
 
 ```(bash)
-jsonld-expand -c biblio.jsonld < example/journalArticle.json > doc.jsonld
-jsonls-nq < doc.jsonld
+$ jsonld-expand -c biblio.jsonld < example/journalArticle.json > doc.jsonld
+$ jsonls-nq < doc.jsonld
 _:b0 <http://xmlns.com/foaf/0.1/member> <https://biblio.ugent.be/organization/UGent> .
 _:b1 <http://xmlns.com/foaf/0.1/member> <https://biblio.ugent.be/organization/TW06> .
 _:b2 <http://xmlns.com/foaf/0.1/member> <https://biblio.ugent.be/organization/CA20> .
