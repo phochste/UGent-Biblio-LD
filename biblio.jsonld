@@ -8,16 +8,15 @@
       "dcterms" : "http://purl.org/dc/terms/",
       "event" : "http://purl.org/NET/c4dm/event.owl#" ,
       "foaf" : "http://xmlns.com/foaf/0.1/",
-      "ore" : "http://www.openarchives.org/ore/terms/",
       "orcid" : "http://orcid.org/",
       "schema" : "http://schema.org/",
       "ugent" : "http://lib.ugent.be/biblio/",
       "xsd" : "http://www.w3.org/2001/XMLSchema#",
 
       "_id": "@id",
-      "abstract" : "dcterms:abstract",
+      "abstract" : "schema:abstract",
       "affiliation" : {
-         "@id" : "dcterms:mediator",
+         "@id" : "schema:sourceOrganization",
          "@context" : {
             "ugent_id" : {
                "@type" : "@id",
@@ -29,7 +28,7 @@
          }
       },
       "author" : {
-         "@id" : "dc:creator",
+         "@id" : "schema:author",
          "@context" : {
             "@base" : "http://biblio.ugent.be/person/",
             "last_name" : "foaf:familyName",
@@ -45,20 +44,26 @@
                "@context" : {
                   "@base" : "http://biblio.ugent.be/person/"
                },
-               "@id" : "dc:identifier"
+               "@id" : "schema:identifier"
             },
             "orcid_id" : {
                "@type" : "@id",
                "@context" : {
                   "@base" : "http://orcid.org/"
                },
-               "@id" : "dc:identifier"
+               "@id" : "schema:identifier"
             },
             "first_name" : "foaf:givenName",
             "name" : "foaf:name"
          }
       },
-      "classification" : "ugent:classification",
+      "classification" : {
+          "@id" : "ugent:classification",
+          "@context" : {
+             "@base" : "http://biblio.ugent.be/classification/"
+          },
+          "@type" : "@id"
+      },
       "conference" : {
           "@id" : "bibo:presentedAt" ,
           "@context" : {
@@ -68,12 +73,13 @@
               "start_time" : "event:time"
           }
       } ,
-      "date_created" : "dcterms:created",
-      "date_updated" : "dcterms:modified",
+      "date_created" : "schema:dateCreated",
+      "date_updated" : "schema:dateModified",
       "doi" : "bibo:doi",
       "editor" : {
-         "@id" : "bibo:editor" ,
+         "@id" : "schema:editor" ,
          "@context" : {
+            "@base" : "http://biblio.ugent.be/person/",
             "name" : "foaf:name",
             "first_name" : "foaf:givenName",
             "orcid_id" : {
@@ -81,13 +87,13 @@
                "@context" : {
                   "@base" : "http://orcid.org/"
                },
-               "@id" : "dc:identifier"
+               "@id" : "schema:identifier"
             },
             "biblio_id" : {
                "@context" : {
                   "@base" : "http://biblio.ugent.be/person/"
                },
-               "@id" : "dc:identifier",
+               "@id" : "schema:identifier",
                "@type" : "@id"
             },
             "ugent_id" : {
@@ -102,6 +108,7 @@
       },
       "file" : {
          "@context" : {
+            "_id" : null,
             "url" : "@id",
             "kind" : {
                "@type" : "@id",
@@ -123,7 +130,7 @@
          "@id" : "dcterms:hasPart"
       },
       "handle" : {
-         "@id" : "ore:similarTo",
+         "@id" : "schema:sameAs",
          "@type" : "@id"
       },
       "issn" : "bibo:issn" ,
@@ -131,23 +138,23 @@
       "issue" : "bibo:issue" ,
       "language" : "dc:language",
       "page" : {
-         "@id" : "bibo:pages",
+         "@id" : "schema:pagination",
          "@context" : {
-            "first" : "bibo:pageStart",
-            "last" : "bibo:pageEnd"
+            "first" : "schema:pageStart",
+            "last" : "schema:pageEnd"
          }
       },
-      "parent" : "dcterms:publisher" ,
       "publisher" : {
-          "@id" : "dcterms:publisher" ,
+          "@id" : "schema:publisher" ,
           "@context" : {
              "name" : "dcterms:publisher",
              "location" : "fifo:based_near"
           }
       },
       "promoter" : {
-         "@id" : "dc:contributor",
+         "@id" : "ugent:promoter",
          "@context" : {
+            "@base" : "http://biblio.ugent.be/person/",
             "name" : "foaf:name",
             "first_name" : "foaf:givenName",
             "orcid_id" : {
@@ -155,13 +162,13 @@
                "@context" : {
                   "@base" : "http://orcid.org/"
                },
-               "@id" : "dc:identifier"
+               "@id" : "schema:identifier"
             },
             "biblio_id" : {
                "@context" : {
                   "@base" : "http://biblio.ugent.be/person/"
                },
-               "@id" : "dc:identifier",
+               "@id" : "schema:identifier",
                "@type" : "@id"
             },
             "ugent_id" : {
@@ -175,11 +182,11 @@
          }
       },
       "subject" : "dcterms:subject" ,
-      "title" : "dc:title",
+      "title" : "schema:name",
       "type" : {
          "@id" : "dc:type",
          "@context" : {
-            "@base" : "http://lib.ugent.be/biblio/"
+            "@base" : "http://biblio.ugent.be/type/"
          },
          "@type" : "@id"
       },
