@@ -4,7 +4,11 @@
 
 This is a JSON-LD context for mapping [Biblio JSON data](https://biblio.ugent.be/exports/publications.json) into linked data.
 
-## Usage
+## Biblio JSON data dump
+
+https://biblio.ugent.be/exports/publications.json
+
+## Example usecase
 
 ### Perl
 
