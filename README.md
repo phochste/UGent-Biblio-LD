@@ -4,14 +4,28 @@
 
 This is a JSON-LD context for mapping Biblio JSON data into linked data.
 
-## Usage
+### Install
 
-### Perl
+```
+npm install
+```
 
-Install [JSONLD](https://metacpan.org/pod/JSONLD). 
+### Use
 
 Run:
 
 ```(bash)
-jsonld-expand -c biblio.jsonld < example/journalArticle.json
+./bin/biblio-ld.js one example/journalArticle.json
+```
+
+Download a JSON dump of the biblio data:
+
+```
+curl https://biblio.ugent.be/exports/publications.json > data/publications.json
+```
+
+Transform this JSON dump into RDF:
+
+```
+./bin/biblio-ld.js many data/publications.json
 ```

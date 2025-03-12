@@ -11,6 +11,8 @@ const { Transform } = require('stream');
 const { DataFactory } = N3;
 const { namedNode, quad } = DataFactory;
 const { v4: uuidv4 } = require('uuid');
+const readline = require('readline');
+
 
 const CONTEXT = './biblio.jsonld';
 const BASE_IRI = 'https://biblio.ugent.be/ns#';
@@ -28,6 +30,42 @@ program
       json["@context"] = context["@context"];
       const rdf = await json2rdf(JSON.stringify(json));
       console.log(rdf);
+  });
+
+program
+  .command('many')
+  .argument('<export>','Biblio export file')
+  .action( async (input) => {
+      const context = JSON.parse(fs.readFileSync(CONTEXT,'utf-8'));
+
+      const fileStream = fs.createReadStream(input);
+
+      const rl = readline.createInterface({
+        input: fileStream,
+        crlfDelay: Infinity
+      });
+
+      let nr = 0;
+      for await (const line of rl) {
+          nr++;
+          try {
+            const json = JSON.parse(line);
+            json["@type"] = BASE_IRI + json["classification"];
+            json["@context"] = context["@context"];
+            const rdf = await json2rdf(JSON.stringify(json));
+            console.log(rdf);
+            cache = {};
+
+            if (nr % 100 == 0) {
+              console.error(`...${nr}`);
+            }
+          }
+          catch (e) {
+            console.error(`line ${nr} : parse error`);
+            console.log(e);
+            process.exit(1);
+          }
+      }
   });
 
 async function json2rdf(data) {
@@ -83,7 +121,7 @@ function blankNodeRewriter(q) {
     return quad(subject,predicate,object,graph);
 }
 
-const cache = {};
+let cache = {};
 
 function globBN(bn) {
     if (cache[bn]) {
