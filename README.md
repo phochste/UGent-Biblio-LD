@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a JSON-LD context for mapping [Biblio JSON data](https://biblio.ugent.be/exports/publications.json) into linked data.
+This is a JSON-LD context for mapping [Biblio](https://biblio.ugent.be) into linked data.
 
 ### Install
 
