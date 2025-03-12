@@ -16,6 +16,7 @@ const readline = require('readline');
 
 const CONTEXT = './biblio.jsonld';
 const BASE_IRI = 'https://biblio.ugent.be/ns#';
+const CONTEXT_JSON = JSON.parse(fs.readFileSync(CONTEXT,'utf-8'));
 
 program
   .name('biblio-ld');
@@ -24,10 +25,8 @@ program
   .command('one')
   .argument('<record>','JSON record')
   .action( async (record) => {
-      const context = JSON.parse(fs.readFileSync(CONTEXT,'utf-8'));
-      const json = JSON.parse(fs.readFileSync(record,'utf-8'));
-      json["@type"] = BASE_IRI + json["classification"];
-      json["@context"] = context["@context"];
+      let json = JSON.parse(fs.readFileSync(record,'utf-8'));
+      json = fixJSON(json);
       const rdf = await json2rdf(JSON.stringify(json));
       console.log(rdf);
   });
@@ -36,8 +35,6 @@ program
   .command('many')
   .argument('<export>','Biblio export file')
   .action( async (input) => {
-      const context = JSON.parse(fs.readFileSync(CONTEXT,'utf-8'));
-
       const fileStream = fs.createReadStream(input);
 
       const rl = readline.createInterface({
@@ -49,9 +46,8 @@ program
       for await (const line of rl) {
           nr++;
           try {
-            const json = JSON.parse(line);
-            json["@type"] = BASE_IRI + json["classification"];
-            json["@context"] = context["@context"];
+            let json = JSON.parse(line);
+            json = fixJSON(json);
             const rdf = await json2rdf(JSON.stringify(json));
             console.log(rdf);
             cache = {};
@@ -67,6 +63,14 @@ program
           }
       }
   });
+
+function fixJSON(data) {
+    data["@type"] = BASE_IRI + data["classification"];
+    data["@context"] = CONTEXT_JSON["@context"];
+    data["date_created"] = data["date_created"].replace(" ","T") + "Z";
+    data["date_updated"] = data["date_updated"].replace(" ","T") + "Z";
+    return data;
+}
 
 async function json2rdf(data) {
    const textStream = streamifyString(data); 

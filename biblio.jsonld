@@ -73,8 +73,14 @@
               "start_time" : "event:time"
           }
       } ,
-      "date_created" : "schema:dateCreated",
-      "date_updated" : "schema:dateModified",
+      "date_created" : {
+         "@id": "schema:dateCreated",
+         "@type": "xsd:dateTime"
+      },
+      "date_updated" : {
+         "@id": "schema:dateModified",
+         "@type": "xsd:dateTime"
+      },
       "doi" : "bibo:doi",
       "editor" : {
          "@id" : "schema:editor" ,
