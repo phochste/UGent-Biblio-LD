@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a JSON-LD context for mapping [Biblio](https://biblio.ugent.be) into linked data.
+This is a toolkit to map the Ghent University Bibliography [Biblio](https://biblio.ugent.be) into linked data.
 
 ### Install
 
