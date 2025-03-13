@@ -13,8 +13,7 @@ const { namedNode, quad } = DataFactory;
 const { v4: uuidv4 } = require('uuid');
 const readline = require('readline');
 
-
-const CONTEXT = './biblio.jsonld';
+const CONTEXT = './etc/biblio.jsonld';
 const BASE_IRI = 'https://biblio.ugent.be/ns#';
 const CONTEXT_JSON = JSON.parse(fs.readFileSync(CONTEXT,'utf-8'));
 
@@ -23,18 +22,27 @@ program
 
 program
   .command('one')
+  .option("--jsonld","Only return JSON-LD",false)
+  .option("--type <type>","RDF output type","application/n-quads")
   .argument('<record>','JSON record')
-  .action( async (record) => {
+  .action( async (record,options) => {
       let json = JSON.parse(fs.readFileSync(record,'utf-8'));
       json = fixJSON(json);
-      const rdf = await json2rdf(JSON.stringify(json));
-      console.log(rdf);
+
+      if (options.jsonld) {
+         console.log(JSON.stringify(json));
+      }
+      else {
+         const rdf = await json2rdf(JSON.stringify(json),options.type);
+         console.log(rdf);
+      }
   });
 
 program
   .command('many')
+  .option("--jsonld","Only return JSON-LD",false)
   .argument('<export>','Biblio export file')
-  .action( async (input) => {
+  .action( async (input,options) => {
       const fileStream = fs.createReadStream(input);
 
       const rl = readline.createInterface({
@@ -48,12 +56,18 @@ program
           try {
             let json = JSON.parse(line);
             json = fixJSON(json);
-            const rdf = await json2rdf(JSON.stringify(json));
-            console.log(rdf);
-            cache = {};
+
+            if (options.jsonld) {
+                console.log(JSON.stringify(json));
+            }
+            else {
+                const rdf = await json2rdf(JSON.stringify(json));
+                console.log(rdf);
+                cache = {};
+            }
 
             if (nr % 100 == 0) {
-              console.error(`...${nr}`);
+                console.error(`...${nr}`);
             }
           }
           catch (e) {
@@ -72,7 +86,11 @@ function fixJSON(data) {
     return data;
 }
 
-async function json2rdf(data) {
+async function json2rdf(data,outputType) {
+   if (! outputType) {
+       outputType = "application/n-quads";
+   }
+
    const textStream = streamifyString(data); 
 
    const quadStream = rdfParser.parse(textStream, { 
@@ -89,7 +107,7 @@ async function json2rdf(data) {
    });
 
    const outStream = rdfSerializer.serialize(quadStream.pipe(transformStream), { 
-          contentType: 'application/n-quads' 
+          contentType: outputType
    });
 
    return stringifyStream(outStream);
