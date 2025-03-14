@@ -35,3 +35,17 @@ Or, create first a small sample of the data
 ```
 shuf -n 2000 data/publications.json > data/sample.json
 ```
+
+## Docker
+
+Build docker image
+
+```
+make docker-build
+```
+
+Run the command line tool
+
+```
+./run.sh
+```
