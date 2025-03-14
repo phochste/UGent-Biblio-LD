@@ -47,5 +47,5 @@ make docker-build
 Run the command line tool
 
 ```
-./run.sh
+./biblio-ld.sh
 ```
