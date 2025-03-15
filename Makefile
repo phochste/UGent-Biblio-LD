@@ -1,6 +1,6 @@
 .PHONY: docker-build docker-interactive
 
-docket-pull:
+docker-pull:
 	docker pull rfdhdt/hdt-cpp
 
 docker-build:
