@@ -1,3 +1,5 @@
+We moved to https://codeberg.org/phochste/UGent-Biblio-LD
+
 # BIBLIO-LD
 
 ## Introduction
